@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Evaluación de Modelos IA sobre Spider"
+message: "Si utilizas este repositorio, por favor cítalo."
+type: software
+authors:
+  - family-names: Cabrera Parrales
+    given-names: Joel David
+  - family-names: Sánchez Arévalo
+    given-names: Aníbal Andrés
+version: 0.2.0
+license: MIT

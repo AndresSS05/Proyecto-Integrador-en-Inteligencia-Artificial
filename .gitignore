@@ -1,5 +1,6 @@
 __pycache__/
 .ipynb_checkpoints/
+.pytest_cache/
 .venv/
 venv/
 .env
@@ -8,8 +9,11 @@ venv/
 *.pyo
 *.pyd
 *.egg-info/
+build/
+dist/
 .DS_Store
 Thumbs.db
-reports/figures/*.png
-data/raw/
-data/processed/
+reports/final/*
+data/raw/*
+data/processed/*
+!reports/final/.gitkeep

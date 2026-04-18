@@ -1,12 +1,14 @@
-# Estructura sugerida de slides
+# Estructura sugerida de diapositivas
 
 1. Portada
-2. Objetivo y dataset
-3. Feature engineering
-4. Modelos comparados
-5. Resultados de benchmarking
-6. Fairness
-7. Curvas de aprendizaje
-8. Riesgo de data leakage
-9. Recomendaciones
-10. Cierre
+2. Problema y objetivo
+3. Dataset y partición
+4. Feature engineering
+5. Modelos comparados
+6. Resultados de benchmarking
+7. Fairness
+8. Curvas de aprendizaje
+9. Efecto de `max_depth`
+10. Riesgo de data leakage
+11. Recomendaciones
+12. Cierre

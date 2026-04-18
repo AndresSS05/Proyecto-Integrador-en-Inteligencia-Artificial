@@ -1,12 +1,17 @@
 # Guía breve de presentación
 
 ## Mensaje central
-Explica que el trabajo evalúa modelos de clasificación de dificultad SQL en Spider y que el hallazgo más importante no es solo el puntaje alto, sino la detección de posible data leakage.
+No vendas solo que el modelo obtuvo métricas altas. El punto realmente fuerte del trabajo es que además del benchmarking, se identificó una limitación metodológica importante: posible `data leakage`.
 
-## Secuencia sugerida
-1. Problema y contexto.
-2. Pipeline de features.
-3. Benchmarking.
-4. Fairness.
-5. Overfitting/underfitting.
-6. Hallazgo crítico y mejoras.
+## Orden recomendado
+1. problema y contexto,
+2. dataset Spider,
+3. pipeline de features,
+4. benchmarking,
+5. fairness,
+6. generalización,
+7. hallazgo crítico,
+8. mejoras futuras.
+
+## Frase de cierre sugerida
+El valor del proyecto no está únicamente en comparar modelos, sino en demostrar criterio técnico para interpretar resultados que, aunque altos, pueden estar inflados por el diseño de las variables.

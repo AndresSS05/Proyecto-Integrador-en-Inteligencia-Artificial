@@ -1,6 +1,9 @@
 # Notebooks
 
-Notebook principal esperado:
-- `01_evaluacion_modelos_spider.ipynb`
+Este directorio contiene la versión limpia del notebook principal del proyecto.
 
-Mantén el notebook con celdas ejecutables de inicio a fin y exporta figuras a `reports/figures/`.
+## Archivo principal
+- `01_evaluacion_modelos_spider_uees.ipynb`
+
+## Objetivo
+Usar el notebook como capa de exploración y visualización, dejando la lógica reutilizable dentro de `src/`.

@@ -1,11 +1,11 @@
-# Reportes
+# Reports
 
-Ubica aquí:
-- informe final en PDF
-- informe editable en DOCX
-- figuras exportadas
-- tablas resumen de métricas
+Este directorio queda reservado para artefactos finales del proyecto.
 
-Nombres sugeridos:
-- `Informe_Evaluacion_Modelos_IA_Spider_UEES.pdf`
-- `Informe_Evaluacion_Modelos_IA_Spider_UEES.docx`
+## Sugerencia de contenido
+- `final/Informe_Evaluacion_Modelos_IA_Spider_UEES.pdf`
+- `final/Informe_Evaluacion_Modelos_IA_Spider_UEES.docx`
+- `figures/` con exportaciones PNG o SVG
+- tablas resumen de benchmarking y fairness
+
+> En esta iteración del repositorio se dejó la estructura lista y la documentación alineada al informe y notebook originales.
