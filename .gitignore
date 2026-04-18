@@ -1,0 +1,146 @@
+# ════════════════════════════════════════════════════════════════════════════
+# .gitignore — Proyecto Integrador IA UEES
+# ════════════════════════════════════════════════════════════════════════════
+
+# ─── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+*.spec
+
+# ─── Entornos virtuales ─────────────────────────────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.env
+virtualenv/
+pipenv/
+
+# ─── Jupyter ────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ─── Datos (no versionar datasets grandes) ─────────────────────────────────
+data/raw/
+data/processed/
+data/interim/
+data/external/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+*.joblib
+!data/.gitkeep
+
+# Spider dataset — descargado on-the-fly desde HF Hub
+spider/
+xlangai_spider/
+
+# ─── Modelos entrenados ─────────────────────────────────────────────────────
+models/
+*.model
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+checkpoint*/
+
+# ─── Logs y outputs ─────────────────────────────────────────────────────────
+logs/
+*.log
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+output/
+outputs/
+
+# ─── Cache ──────────────────────────────────────────────────────────────────
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+.hypothesis/
+htmlcov/
+*.cover
+
+# ─── Hugging Face cache ─────────────────────────────────────────────────────
+~/.cache/huggingface/
+.hf_cache/
+
+# ─── NLTK data (se descarga en runtime) ─────────────────────────────────────
+nltk_data/
+
+# ─── IDEs y editores ────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+.project
+.pydevproject
+.settings/
+
+# ─── Sistema operativo ──────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ─── Archivos temporales ────────────────────────────────────────────────────
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.~*
+
+# ─── Secretos y credenciales (CRÍTICO) ─────────────────────────────────────
+.env
+.env.local
+.env.*.local
+secrets.yaml
+credentials.json
+*.key
+*.pem
+config.ini
+.aws/
+.gcp/

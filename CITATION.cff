@@ -1,0 +1,94 @@
+cff-version: 1.2.0
+message: "Si utilizas este trabajo en tu investigación, por favor cítalo como se indica a continuación."
+title: >-
+  Evaluación de Modelos de IA sobre el Dataset Spider: Benchmarking Comparativo,
+  Análisis de Sesgo Algorítmico y Diagnóstico de Overfitting/Underfitting
+type: software
+authors:
+  - family-names: Cabrera Parrales
+    given-names: Joel David
+    affiliation: Universidad de Especialidades Espíritu Santo (UEES)
+  - family-names: Sánchez Arévalo
+    given-names: Aníbal Andrés
+    affiliation: Universidad de Especialidades Espíritu Santo (UEES)
+abstract: >-
+  Tercera fase del Proyecto Integrador en Inteligencia Artificial de la Maestría
+  en IA de la UEES. El trabajo aborda la evaluación sistemática de un clasificador
+  de dificultad de consultas SQL sobre el dataset Spider (Yu et al., 2018),
+  estructurada en tres actividades: benchmarking comparativo contra baselines,
+  estado del arte y servicios comerciales; análisis de sesgo algorítmico mediante
+  métricas de fairness (Disparate Impact Ratio, Equalized Odds Gap); y diagnóstico
+  de overfitting/underfitting a través de curvas de aprendizaje y barrido
+  paramétrico. El estudio incluye un análisis crítico transversal sobre la
+  sospecha de fuga de información (data leakage) en el pipeline de feature
+  engineering, fundamentado en el marco teórico de Kaufman et al. (2012).
+keywords:
+  - machine learning
+  - text-to-sql
+  - spider dataset
+  - benchmarking
+  - algorithmic fairness
+  - overfitting
+  - underfitting
+  - data leakage
+  - random forest
+  - natural language processing
+  - UEES
+  - inteligencia artificial
+license: MIT
+version: "1.0.0"
+date-released: "2026-04-17"
+url: "https://github.com/<TU_USUARIO>/Proyecto-Integrador-Inteligencia-Artificial"
+repository-code: "https://github.com/<TU_USUARIO>/Proyecto-Integrador-Inteligencia-Artificial"
+references:
+  - type: article
+    authors:
+      - family-names: Yu
+        given-names: Tao
+      - family-names: Zhang
+        given-names: Rui
+      - family-names: Yang
+        given-names: Kai
+      - family-names: Yasunaga
+        given-names: Michihiro
+      - family-names: Radev
+        given-names: Dragomir
+    title: "Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task"
+    conference:
+      name: "EMNLP 2018"
+    year: 2018
+    doi: "10.18653/v1/D18-1425"
+  - type: article
+    authors:
+      - family-names: Mehrabi
+        given-names: Ninareh
+      - family-names: Morstatter
+        given-names: Fred
+      - family-names: Saxena
+        given-names: Nripsuta
+      - family-names: Lerman
+        given-names: Kristina
+      - family-names: Galstyan
+        given-names: Aram
+    title: "A Survey on Bias and Fairness in Machine Learning"
+    journal: "ACM Computing Surveys"
+    volume: 54
+    issue: 6
+    year: 2021
+    doi: "10.1145/3457607"
+  - type: article
+    authors:
+      - family-names: Kaufman
+        given-names: Shachar
+      - family-names: Rosset
+        given-names: Saharon
+      - family-names: Perlich
+        given-names: Claudia
+      - family-names: Stitelman
+        given-names: Ori
+    title: "Leakage in Data Mining: Formulation, Detection, and Avoidance"
+    journal: "ACM Transactions on Knowledge Discovery from Data"
+    volume: 6
+    issue: 4
+    year: 2012
+    doi: "10.1145/2382577.2382579"
